@@ -19,8 +19,8 @@ int main(){
 	}
 	printf("\nSorted array is: \n\n");
 	for(i = 0; i < n; i++){
-		printf("%d \n\n", a[i]);
+		printf("%d \n", a[i]);
 	}
-	printf("%d is number smallest and %d is number largest.", a[0], a[n-1]);
+	printf("\n%d is smallest number  and %d is largest number .", a[0], a[n-1]);
 	return 0;
 }
