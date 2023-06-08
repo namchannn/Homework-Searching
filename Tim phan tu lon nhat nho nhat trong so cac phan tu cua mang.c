@@ -40,6 +40,7 @@ int main(){
 	if(first > last){
 		printf("\nNot found!! %d is not present in the list.\n", search);
 	}
+	// Find element largest and smallest
 	int maxValue = array[0];
 	int minValue = array[0];
 	printf("\nFind element largest and smallest:\n\n");
